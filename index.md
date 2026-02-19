@@ -26,8 +26,8 @@ With a solid foundation in ML algorithms and hands-on experience in full-stack d
 
 ## 💼 Work Experience
 
-**R&D Intern | Chinasoft International**  
-*Tianjin, China | June 2023 – Aug 2023*
+**R&D Intern**| **Chinasoft International**  
+* Tianjin, China | June 2023 – Aug 2023 *
 
 *   **Big Data Infrastructure:** Established Hadoop clusters and implemented MapReduce tools to efficiently process and clean millions of data records.
 *   **Data Visualization:** Developed a visual display website using **HTML/CSS** and **ECharts** to present multi-dimensional data insights effectively.
