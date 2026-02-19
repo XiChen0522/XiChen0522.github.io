@@ -20,7 +20,13 @@
     <ul class="navigation-list">
     {%- for nav in site.data.navigation -%}
       <li class="navigation-item">
-        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
+        <!-- 修改点：增加判断逻辑 -->
+        {%- if nav.url contains "://" or nav.url contains "mailto:" -%}
+          {%- assign nav_url = nav.url -%}
+        {%- else -%}
+          {%- assign nav_url = nav.url | relative_url -%}
+        {%- endif -%}
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ nav_url }}">{{ nav.title | escape }}</a>
       </li>
     {%- endfor -%}
     </ul>
@@ -31,7 +37,13 @@
       <ul class="social-icons pure-menu-list">
       {% for social in site.data.social -%}
         <li class="pure-menu-item">
-          <a class="social-icon pure-menu-link" href="{{ social.url }}">
+          <!-- 修改点：确保 social 链接也不被误加前缀 -->
+          {%- if social.url contains "://" or social.url contains "mailto:" -%}
+            {%- assign social_url = social.url -%}
+          {%- else -%}
+            {%- assign social_url = social.url | relative_url -%}
+          {%- endif -%}
+          <a class="social-icon pure-menu-link" href="{{ social_url }}">
             <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i>
           </a>
         </li>
