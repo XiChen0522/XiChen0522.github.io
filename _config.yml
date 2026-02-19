@@ -1,13 +1,13 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
+title: Xi Chen | 陈希
+description: MS in Computer Science @ JHU | Machine Learning & Computer Vision Researcher
 url: https://XiChen0522.github.io
-avatar: /avatar.jpeg
+avatar: /avatar.jpg # 请确保你的头像文件名为 avatar.jpg 并放在根目录或 assets 下
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
 
-# Gems
+# Gems (保持不变)
 plugins:
   - jekyll-gist
   - jekyll-paginate
@@ -27,33 +27,25 @@ exclude:
   - scripts/
   - not-pure-poole.gemspec
 
-# Optimize Jekyl SEO Tag
+# Optimize Jekyll SEO Tag
 twitter:
-  username: vszhub
+  username: XiChen0522 # 建议改为你的社交账号
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Xi Chen
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
-google_site_verification: xxxxx
+    - https://github.com/XiChen0522
+    # - https://twitter.com/你的推特 (如果不常用可以删掉)
+
 lang: en
 
 sass:
   sass_dir: _sass
   style: :compressed
 
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# google_analytics: UA-000000-0
-
-# Replace this value and uncomment to enable Disqus
-# disqus: xxxxxx
-
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Xi Chen
+  url: https://github.com/XiChen0522
+  email: xchen336@jh.edu
