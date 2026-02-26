@@ -30,8 +30,8 @@ With a solid foundation in ML algorithms and hands-on experience in full-stack d
 *Baltimore, MD | Feb 2026 – Present*  
 *Project: Track-Any-Point Foundation Model for Endoscopic Scenes*
 *   Currently developing a robust **Track-Any-Point (TAP)** foundation model tailored for complex surgical environments, aiming for real-time deployment (<30ms latency) on surgical edge platforms.
-*   Designing a **Knowledge Distillation** framework to compress heavy Transformer-based architectures (combining CoTracker and LoFTR cross-attention) into lightweight models (e.g., ConvGRU, simplified TAPIR).
-*   Tackling critical surgical vision challenges including illumination artifacts, severe specular reflections, and textureless homogeneous tissues using CNN-based feature adapters (e.g., D2-Layer).
+*   Designing a **Knowledge Distillation** framework to compress heavy Transformer-based architectures into lightweight models.
+*   Tackling critical surgical vision challenges including illumination artifacts, severe specular reflections, and textureless homogeneous tissues using CNN-based feature adapters.
 
 ---
 
